@@ -37,9 +37,16 @@
 | 12 | AI có thể tốt hơn *(ứng viên)* | Soạn đề / ngân hàng câu hỏi kiểm tra bám đúng bài đã dạy trong tuần | Giáo viên bộ môn trường mẹ | `[cần xác nhận với mẹ là có thật không]` |
 
 **AI đã dùng ở Phase 1:**
-- Prompt đã hỏi: `[điền sau]`
-- Ý dùng được: `[điền sau]`
-- Ý bỏ vì không phải pain thật: `[điền sau]`
+- Prompt đã hỏi: Sau khi tự viết 4 dòng đầu (kế hoạch 35 tuần, công văn, hotspot,
+  và quan sát riêng ở BLI), tôi đưa bối cảnh "SWE intern tại BLI, học viên K4A"
+  và hỏi AI gợi ý thêm theo 4 lăng kính, có actor và cách đo, không đưa ý quá rộng.
+- Ý dùng được: gợi ý "quy trình fork/rename/clone lặp lại mỗi buổi lab" (dòng #5).
+  Dùng được ngay vì có bằng chứng xảy ra thật trong chính buổi làm bài này — tôi
+  đặt sai mã học viên và phải làm lại toàn bộ bước đổi tên — nên chuyển thẳng
+  vào nhóm "quan sát thật" thay vì để ở nhóm ứng viên.
+- Ý bỏ vì không phải pain thật: chưa bỏ ý nào hẳn. 6 ứng viên (#7-12) vẫn đang
+  chờ tôi tự xác nhận trong tuần này; đến giờ chưa có ý nào đủ bằng chứng để
+  gọi là pain thật, nhưng cũng chưa đủ căn cứ để loại hẳn.
 
 **Self-check Phase 1:**
 - [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
@@ -122,8 +129,8 @@ Quick gut:
 ```text
 CURRENT STATE — [cần đo] phút
 
-[1 Mở phân phối CT: 10']
--> [2 Mở kho học liệu: 10']
+[1 Mở phân phối CT: [cần đo]']
+-> [2 Mở kho học liệu: [cần đo]']
 -> [3 Ghép bài vào từng tuần x35: __']    <-- bottleneck
 -> [4 Xếp thứ tự trong tuần: __']         <-- bottleneck
 -> [5 Gõ lại theo mẫu: __']
@@ -334,8 +341,12 @@ giáo viên đang phải nhờ mẹ tôi làm hộ.
 ```
 
 **AI phản biện Card (nếu có):**
-- Điểm yếu AI chỉ ra: `[điền sau]`
-- Tôi sửa gì: `[điền sau]`
+- Điểm yếu AI chỉ ra: file Excel mẫu (non-AI alternative) có thể đã giải quyết
+  phần lớn vấn đề rồi — nếu vậy tôi đang nhảy sang AI cho một bài toán mà rule
+  đơn giản là đủ.
+- Tôi sửa gì: tôi không tự trả lời hộ câu hỏi đó. Giữ nguyên non-AI alternative
+  trong card, và biến chính câu hỏi đó thành câu hỏi challenge #1 muốn nhóm trả
+  lời — vì đây đúng là điều tôi chưa chắc, không phải chỗ để AI quyết thay.
 
 ---
 
