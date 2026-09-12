@@ -2,6 +2,12 @@
 
 > Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
 
+> ⚠️ **Mọi số có dấu `~` trong file này là số ước lượng để bài đọc trọn vẹn,
+> KHÔNG PHẢI số đã đo hay đã hỏi ai.** Trước khi nộp, thay từng số đó bằng số
+> thật — chỉ mất vài phút hỏi mẹ/bố, xem bảng "Việc cần đo trước buổi lab" ở
+> cuối file. Nếu bị hỏi nguồn của một số `~` mà không trả lời được nó lấy từ
+> đâu, đó là dấu hiệu chưa thay xong.
+
 ## Thông tin cá nhân
 
 - Họ và tên: Hoàng Quốc Việt
@@ -23,18 +29,21 @@
 
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại + Tốn thời gian | Giáo viên đã có đủ học liệu từng môn nhưng vẫn phải tự xếp từng bài vào đúng tuần, đúng thứ tự, lặp cho cả **35 tuần** của năm học | Giáo viên bộ môn trường của mẹ tôi | 35 tuần/năm. Mẹ tôi làm lại bằng ChatGPT xong trong **2 tiếng** — 1 điểm dữ liệu thật. `[cần đo: làm tay trước đây mất bao nhiêu giờ]` |
-| 2 | Pain từ người khác | Cả trường gặp đúng vấn đề trên; mẹ tôi đang làm hộ đồng nghiệp và lấy công, nên mẹ thành nút cổ chai của cả trường | Các giáo viên nhờ mẹ + chính mẹ tôi | `[cần đo: mấy giáo viên đã nhờ, mỗi người mấy lần, mẹ mất bao lâu mỗi lần]` |
-| 3 | Tốn thời gian + AI có thể tốt hơn | Công văn mới từ phòng/quận gửi chung cho nhiều đơn vị (bệnh viện, trường, công an) nên hiệu trưởng phải đọc hết mới suy ra được phần nào trường phải làm và hạn nào | Mẹ tôi (hiệu trưởng) | `[cần đo: mấy công văn/tuần, mỗi công văn mấy trang, đọc mất bao nhiêu phút]` |
-| 4 | Lặp lại | Bố cần wifi trong xe nhưng điện thoại không tự bật phát sóng; phải vào Cài đặt bật tay, và bố không quen thao tác | Bố tôi | **~5 phút mỗi lần** trước khi lái được (bố tự nói). `[cần đo: mấy lần/tuần]` |
-| 5 | Lặp lại | Mỗi buổi lab phải fork repo lớp, đổi tên đúng quy ước `K4A-DayXX-MãHV-HọVàTên`, clone, nối `upstream`. Đặt sai tên thì phải rename cả repo lẫn thư mục và sửa lại remote | Cả lớp K4A, mỗi buổi lab | Đã lặp 2 lần (Day 1, Day 2). Ngay buổi này tôi đặt sai mã học viên (`2A202602563` thay vì `02563`) nên phải làm lại toàn bộ bước đổi tên. `[cần đo: mất bao nhiêu phút mỗi lần]` |
-| 6 | Tốn thời gian | Trước khi bắt tay vào một task ở BLI, phải đọc ngược ticket và thread cũ để hiểu vì sao trước đó quyết định như vậy | Tôi + intern mới ở BLI | `[cần đo: tuần rồi mất bao lâu, mấy lần — tự bấm giờ, không cần hỏi ai]` |
-| 7 | Lặp lại *(ứng viên)* | Gom PR + ticket + tin nhắn để viết update hằng tuần | Tôi | `[cần đo]` |
-| 8 | Pain từ người khác *(ứng viên)* | Người mới không biết ai phụ trách phần nào của repo nên hỏi lại | Intern mới ở BLI | `[cần đo: mấy câu hỏi lặp lại]` |
-| 9 | Tốn thời gian *(ứng viên)* | Đọc tài liệu lab dài trước buổi học để biết phải chuẩn bị gì | Học viên K4A | `[cần đo]` |
-| 10 | Lặp lại *(ứng viên)* | Tìm lại deadline / câu trả lời cũ trong Discord lớp | Học viên K4A | `[cần đo]` |
+| 1 | Lặp lại + Tốn thời gian | Giáo viên đã có đủ học liệu từng môn nhưng vẫn phải tự xếp từng bài vào đúng tuần, đúng thứ tự, lặp cho cả **35 tuần** của năm học | Giáo viên bộ môn trường của mẹ tôi | 35 tuần/năm. Mẹ tôi làm lại bằng ChatGPT xong trong **2 tiếng** — 1 điểm dữ liệu thật. Làm tay trước đây: `~24 giờ/môn/năm` |
+| 2 | Pain từ người khác | Cả trường gặp đúng vấn đề trên; mẹ tôi đang làm hộ đồng nghiệp và lấy công, nên mẹ thành nút cổ chai của cả trường | Các giáo viên nhờ mẹ + chính mẹ tôi | `~6 giáo viên` đã nhờ, mỗi người `~2-3 lần/học kỳ`, mỗi lần mẹ mất `~3 giờ` |
+| 3 | Tốn thời gian + AI có thể tốt hơn | Công văn mới từ phòng/quận gửi chung cho nhiều đơn vị (bệnh viện, trường, công an) nên hiệu trưởng phải đọc hết mới suy ra được phần nào trường phải làm và hạn nào | Mẹ tôi (hiệu trưởng) | `~4 công văn/tuần`, mỗi cái `~3-5 trang`, đọc mất `~20 phút/công văn` |
+| 4 | Lặp lại | Bố cần wifi trong xe nhưng điện thoại không tự bật phát sóng; phải vào Cài đặt bật tay, và bố không quen thao tác | Bố tôi | **~5 phút mỗi lần** trước khi lái được (bố tự nói), `~10 lần/tuần` (đi làm + việc riêng) |
+| 5 | Lặp lại | Mỗi buổi lab phải fork repo lớp, đổi tên đúng quy ước `K4A-DayXX-MãHV-HọVàTên`, clone, nối `upstream`. Đặt sai tên thì phải rename cả repo lẫn thư mục và sửa lại remote | Cả lớp K4A, mỗi buổi lab | Đã lặp 2 lần (Day 1, Day 2). Ngay buổi này tôi đặt sai mã học viên (`2A202602563` thay vì `02563`) nên phải làm lại toàn bộ bước đổi tên: `~15 phút` bình thường, `~40 phút` buổi này vì phải sửa lại |
+| 6 | Tốn thời gian | Trước khi bắt tay vào một task ở BLI, phải đọc ngược ticket và thread cũ để hiểu vì sao trước đó quyết định như vậy | Tôi + intern mới ở BLI | `~45 phút/lần`, `~2-3 lần/tuần` |
+| 7 | Lặp lại *(ứng viên)* | Gom PR + ticket + tin nhắn để viết update hằng tuần | Tôi | `~1 giờ/tuần` |
+| 8 | Pain từ người khác *(ứng viên)* | Người mới không biết ai phụ trách phần nào của repo nên hỏi lại | Intern mới ở BLI | `~3-4 câu hỏi lặp lại/tuần` |
+| 9 | Tốn thời gian *(ứng viên)* | Đọc tài liệu lab dài trước buổi học để biết phải chuẩn bị gì | Học viên K4A | `~30-45 phút/tài liệu` |
+| 10 | Lặp lại *(ứng viên)* | Tìm lại deadline / câu trả lời cũ trong Discord lớp | Học viên K4A | `~10 phút/lần`, `~2-3 lần/tuần` |
 | 11 | AI có thể tốt hơn *(ứng viên)* | Trường phải nộp báo cáo định kỳ ngược lên phòng/quận theo mẫu | Mẹ tôi + văn thư | `[cần xác nhận với mẹ là có thật không]` |
 | 12 | AI có thể tốt hơn *(ứng viên)* | Soạn đề / ngân hàng câu hỏi kiểm tra bám đúng bài đã dạy trong tuần | Giáo viên bộ môn trường mẹ | `[cần xác nhận với mẹ là có thật không]` |
+
+> Dòng 11-12 vẫn để nguyên `[cần xác nhận]` — đây là câu hỏi "việc này có thật
+> không", không phải một con số cần ước lượng, nên không đánh dấu `~` cho nó.
 
 **AI đã dùng ở Phase 1:**
 - Prompt đã hỏi: Sau khi tự viết 4 dòng đầu (kế hoạch 35 tuần, công văn, hotspot,
@@ -97,12 +106,12 @@ Bước 3 + 4. Không phải vì khó, mà vì phải lặp 35 lần và mỗi l
 lại kho học liệu để đối chiếu.
 
 Impact:
-[cần đo: __ giờ/giáo viên/năm] x [cần đo: __ giáo viên trong trường].
+`~24 giờ/giáo viên/năm` x `~15 giáo viên trong trường` ≈ `~360 giờ/năm` toàn trường.
 Điểm dữ liệu đã có: dùng ChatGPT thì tổng thời gian còn 2 tiếng.
 Impact phụ: mẹ tôi đang gánh việc của người khác.
 
 Success metric:
-Hiện trạng: [cần đo: __ giờ làm tay cho 1 môn / 35 tuần]
+Hiện trạng: `~24 giờ` làm tay cho 1 môn / 35 tuần
 Mục tiêu:   <= 2 giờ cho trọn 35 tuần
 Cách đo:    bấm giờ 3 giáo viên làm thử 1 môn, cộng với đếm số lỗi tổ trưởng
             bắt được khi duyệt (mục tiêu <= 2 lỗi/kế hoạch)
@@ -127,14 +136,14 @@ Quick gut:
 **Draft workflow Card #1:**
 
 ```text
-CURRENT STATE — [cần đo] phút
+CURRENT STATE — ~1440 phút (~24 giờ)
 
-[1 Mở phân phối CT: [cần đo]']
--> [2 Mở kho học liệu: [cần đo]']
--> [3 Ghép bài vào từng tuần x35: __']    <-- bottleneck
--> [4 Xếp thứ tự trong tuần: __']         <-- bottleneck
--> [5 Gõ lại theo mẫu: __']
--> [6 Rà trùng/thiếu/lệch tiết: __']
+[1 Mở phân phối CT: ~15']
+-> [2 Mở kho học liệu: ~15']
+-> [3 Ghép bài vào từng tuần x35: ~20'/tuần x35]    <-- bottleneck
+-> [4 Xếp thứ tự trong tuần: ~10'/tuần x35]         <-- bottleneck
+-> [5 Gõ lại theo mẫu: ~5'/tuần x35]
+-> [6 Rà trùng/thiếu/lệch tiết: ~185']
 
 FUTURE STATE — mục tiêu <= 120 phút
 
@@ -178,11 +187,11 @@ Bước 2 + 3. Thông tin cần thì ít, nhưng nằm lẫn trong văn bản d�
 vẫn phải đọc hết mới lọc ra được.
 
 Impact:
-[cần đo: __ phút/công văn] x [cần đo: __ công văn/tuần].
+`~20 phút/công văn` x `~4 công văn/tuần` ≈ `~80 phút/tuần`.
 Nếu sót một hạn thì hậu quả là hành chính thật, không chỉ là mất thời gian.
 
 Success metric:
-Hiện trạng: [cần đo: __ phút đọc mỗi công văn]
+Hiện trạng: `~20 phút` đọc mỗi công văn
 Mục tiêu:   đọc bản tóm tắt 1 trang trong <= 5 phút VÀ không sót việc/hạn nào
 Cách đo:    2 tuần chạy song song — mẹ vẫn tự đọc như cũ, rồi đối chiếu với
             bản tóm tắt, đếm số việc và số hạn bị sót. Mục tiêu sót = 0.
@@ -210,14 +219,14 @@ Vì vậy metric phải đo số việc bị sót, không đo "tóm tắt có ha
 **Draft workflow Card #2:**
 
 ```text
-CURRENT STATE — [cần đo] phút/công văn
+CURRENT STATE — ~20 phút/công văn
 
 [1 Nhận: 1']
--> [2 Đọc toàn văn: __']              <-- bottleneck
--> [3 Suy ra việc + hạn: __']         <-- bottleneck
--> [4 So với công văn cũ: __']
+-> [2 Đọc toàn văn: ~10']              <-- bottleneck
+-> [3 Suy ra việc + hạn: ~5']         <-- bottleneck
+-> [4 So với công văn cũ: ~2']
 -> [5 Giao việc: 5']
--> [6 Theo dõi: __']
+-> [6 Theo dõi: ~2']
 
 FUTURE STATE — mục tiêu <= 15 phút/công văn
 
@@ -258,7 +267,7 @@ Bottleneck:
 Bước 4. Vấn đề không phải là chờ máy, mà là tìm đúng mục trong menu Cài đặt.
 
 Impact:
-~5 phút mỗi lần lên xe x [cần đo: __ lần/tuần], kèm khó chịu.
+~5 phút mỗi lần lên xe x `~10 lần/tuần`, kèm khó chịu.
 
 Success metric:
 Hiện trạng: ~5 phút, phải thao tác tay
@@ -352,8 +361,9 @@ giáo viên đang phải nhờ mẹ tôi làm hộ.
 
 ## Việc cần đo trước buổi lab
 
-Mỗi việc dưới đây mất dưới 10 phút và biến một ô `[cần đo]` thành số thật.
-Phần này cũng chính là bằng chứng cho mục kiểm chứng / research.
+Mọi số `~` trong bài là ước lượng dựng tạm để nộp đúng hạn — **chưa hỏi ai**.
+Mỗi việc dưới đây mất dưới 10 phút và thay một số `~` bằng số thật. Phần này
+cũng chính là bằng chứng cho mục kiểm chứng / research.
 
 | # | Hỏi ai | Hỏi gì | Điền vào đâu |
 |---|---|---|---|
@@ -371,5 +381,5 @@ Phần này cũng chính là bằng chứng cho mục kiểm chứng / research.
 - [ ] Có 5+ problems + top 3 Cards đủ field
 - [ ] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [ ] Đã chọn 1 card pitch + câu hỏi challenge
-- [ ] Đã thay hết `[cần đo]` bằng số thật
+- [ ] Đã thay hết số `~` (ước lượng, chưa hỏi ai) bằng số thật
 - [ ] Đã xóa các dòng ứng viên (#7-12) không phải pain thật
